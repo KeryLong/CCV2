@@ -1,0 +1,61 @@
+#HomeMainContainer{
+    background-color: #ccffcc;   
+    
+  }
+  #highlight{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #3280E1;
+  }
+  #homeMainPara{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    font-size: 1.5em;
+}
+#HomeMainImage{
+    display: flex;
+    justify-content: flex-end
+    ;
+  /* background-image: url("../images/main.jpg"); */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 12rem;
+  width: 20rem; 
+}
+
+#HomeButtonGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ccff;
+}
+#buttonImg{
+    display: flex;
+    background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height:   10em;
+  width: 15em;
+  border-radius: 10px; 
+}
+#HomeActionLink{
+    display: flex;
+    font-size: 1.55em;
+    font-weight: 600;
+    color:#3083E3;
+    text-decoration: underline;
+
+}
+#homeButtonContainer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2a7536;
+    border-radius: 10px;
+    margin-top:2em;
+    box-shadow:5px 5px 5px #999;
+    padding: 2px;
+   
+}
